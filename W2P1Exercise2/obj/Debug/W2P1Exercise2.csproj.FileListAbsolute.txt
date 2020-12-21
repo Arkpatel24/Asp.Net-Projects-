@@ -1,0 +1,6 @@
+E:\SHERIDAN\TERM-4\.NET\programs\W2P1Exercise2\obj\Debug\W2P1Exercise2.csproj.CoreCompileInputs.cache
+E:\SHERIDAN\TERM-4\.NET\programs\W2P1Exercise2\bin\Debug\W2P1Exercise2.exe.config
+E:\SHERIDAN\TERM-4\.NET\programs\W2P1Exercise2\bin\Debug\W2P1Exercise2.exe
+E:\SHERIDAN\TERM-4\.NET\programs\W2P1Exercise2\bin\Debug\W2P1Exercise2.pdb
+E:\SHERIDAN\TERM-4\.NET\programs\W2P1Exercise2\obj\Debug\W2P1Exercise2.exe
+E:\SHERIDAN\TERM-4\.NET\programs\W2P1Exercise2\obj\Debug\W2P1Exercise2.pdb

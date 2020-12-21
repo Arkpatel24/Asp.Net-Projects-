@@ -1,0 +1,193 @@
+-------Program.cs---------
+using System;
+
+namespace A2ArkPatel
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bool flag = true;
+            while (flag)
+            {
+                flag = MainMenu();
+            }
+        }
+        public static bool MainMenu()
+        {
+            Console.Clear();
+            Console.WriteLine("1 - Get all Products");
+            Console.WriteLine("2 - Get all Categories ");
+            Console.WriteLine("3 - Get all Suppliers");
+            Console.WriteLine("4 - Get Products by Category ID");
+            Console.WriteLine("5 - Get Products by Supplier ID");
+            Console.WriteLine("6 - Exit");
+            Console.WriteLine("Choose your option :");
+            switch (Console.ReadLine())
+            {
+                case "1":
+                    Console.Clear();
+                    NW.ViewProduct();
+                    return true;
+                case "2":
+                    Console.Clear();
+                    NW.ViewCategory();
+                    return true;
+                case "3":
+                    Console.Clear();
+                    NW.ViewSuppliers();
+                    return true;
+                case "4":
+                    Console.Clear();
+                    NW.ViewProdByCatID();
+                    return true;
+                case "5":
+                    Console.Clear();
+                    NW.ViewProdBySupID();
+                    return true;
+                case "6":
+                    Environment.Exit(-1);
+                    return false;
+                default:
+
+                    return true;
+            }
+        }
+    }
+}
+
+
+
+-----------NW.cs---------------
+using System;
+using System.Collections.Generic;
+using System.Text;
+using Microsoft.Extensions.Configuration;
+using System.IO;
+using System.Data.SqlClient;
+
+namespace A2ArkPatel
+{
+    class NW
+    {
+        static string GetConnectionString()
+        {
+            ConfigurationBuilder configurationBuilder = new ConfigurationBuilder();
+            configurationBuilder.SetBasePath(Directory.GetCurrentDirectory());
+            configurationBuilder.AddJsonFile("connect_config.json");
+            IConfiguration config = configurationBuilder.Build();
+            return config["ConnectionStrings:NorthWindLocalDB"];
+        }
+
+        public static void ViewProduct()
+        {
+            string cs = GetConnectionString();
+            SqlConnection conn = new SqlConnection(cs);
+            string query = "select ProductID,ProductName,CategoryName,CompanyName  from Products  inner join" +
+                " Categories  on Categories.CategoryID = Products.CategoryID inner join Suppliers  on Suppliers.SupplierID = Products.SupplierID";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            conn.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            Console.WriteLine($"{"Product ID",9} {"Product Name",-33} {"Category Name",-28} {"Company Name",-18}");
+            
+            while (reader.Read())
+            {
+                int pro_ID = (int)reader["ProductID"];
+                string pro_Name = (string)reader["ProductName"];
+                string cat_Name = (string)reader["CategoryName"];
+                string comp_Name = (string)reader["CompanyName"];
+                Console.WriteLine("-----------------------------------------------------------------------------------------------------");
+                Console.WriteLine($"{pro_ID,9} {pro_Name,-33} {cat_Name,-28} {comp_Name,-18}");
+            }
+            Console.ReadKey();
+        }
+        public static void ViewCategory()
+        {
+            string cs = GetConnectionString();
+            SqlConnection conn = new SqlConnection(cs);
+            string query = "select CategoryID, CategoryName from Categories";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            conn.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            Console.WriteLine($"{"Category ID",6} {"Category Name",22}");
+            
+            while (reader.Read())
+            {
+                int cat_ID = (int)reader["CategoryID"];
+                string cat_Name = (string)reader["CategoryName"];
+                Console.WriteLine("----------------------------------------------------------------");
+                Console.WriteLine($"{cat_ID,-22} {cat_Name,-10}");
+            }
+            Console.ReadKey();
+        }
+        public static void ViewSuppliers()
+        {
+            string cs = GetConnectionString();
+            SqlConnection conn = new SqlConnection(cs);
+            string query = "select SupplierID, CompanyName from Suppliers";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            conn.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            Console.WriteLine($"{"Supplier ID",6} {"Supplier Name",22}");
+          
+            while (reader.Read())
+            {
+                int sup_ID = (int)reader["SupplierID"];
+                string comp_Name = (string)reader["CompanyName"];
+                Console.WriteLine("--------------------------------------------------------");
+                Console.WriteLine($"{sup_ID,-20} {comp_Name,-10}");
+            }
+            Console.ReadKey();
+        }
+        public static void ViewProdByCatID()
+        {
+            Console.WriteLine("Enter Category ID:");
+            string cat_ID = Console.ReadLine();
+            string cs = GetConnectionString();
+            SqlConnection conn = new SqlConnection(cs);
+            string query = "select ProductID,ProductName,CategoryName," + "CompanyName from Products inner join Categories " +
+                "on Categories.CategoryID=Products.CategoryID inner join Suppliers  on " + "Suppliers.SupplierID=Products.SupplierID where Categories.CategoryID=@CategoryID ";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            cmd.Parameters.AddWithValue("CategoryID", cat_ID);
+            conn.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                int pro_ID = (int)reader["ProductID"];
+                string pro_Name = (string)reader["ProductName"];
+                string cat_Name = (string)reader["CategoryName"];
+                string comp_Name = (string)reader["CompanyName"];
+                Console.WriteLine("------------------------------------------------------------------------------------------");
+                Console.WriteLine($"{pro_ID,10} {pro_Name,-35} {cat_Name,-20} {comp_Name,-15}");
+            }
+            Console.ReadKey();
+        }
+        public static void ViewProdBySupID()
+        {
+
+            Console.WriteLine("Enter Supplier ID:");
+            string sup_ID = Console.ReadLine();
+            string cs = GetConnectionString();
+            SqlConnection conn = new SqlConnection(cs);
+            string query = "select ProductID,ProductName,CategoryName," + "CompanyName from Products inner join Categories " +
+                "on Categories.CategoryID=Products.CategoryID inner join Suppliers on " + "Suppliers.SupplierID=Products.SupplierID where Suppliers.SupplierID=@SupplierID ";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            cmd.Parameters.AddWithValue("SupplierID", sup_ID);
+            conn.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                int pro_ID = (int)reader["ProductID"];
+                string pro_Name = (string)reader["ProductName"];
+                string cat_Name = (string)reader["CategoryName"];
+                string comp_Name = (string)reader["CompanyName"];
+                Console.WriteLine("----------------------------------------------------------------------------------------");
+                Console.WriteLine($"{pro_ID,10} {pro_Name,-35} {cat_Name,-20} {comp_Name,-15}");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+ 	

@@ -1,0 +1,12 @@
+E:\SHERIDAN\TERM-4\.NET\programs\FinalEFArkPatel\bin\Debug\FinalEFArkPatel.exe.config
+E:\SHERIDAN\TERM-4\.NET\programs\FinalEFArkPatel\bin\Debug\FinalEFArkPatel.exe
+E:\SHERIDAN\TERM-4\.NET\programs\FinalEFArkPatel\bin\Debug\FinalEFArkPatel.pdb
+E:\SHERIDAN\TERM-4\.NET\programs\FinalEFArkPatel\bin\Debug\EntityFramework.dll
+E:\SHERIDAN\TERM-4\.NET\programs\FinalEFArkPatel\bin\Debug\EntityFramework.SqlServer.dll
+E:\SHERIDAN\TERM-4\.NET\programs\FinalEFArkPatel\bin\Debug\EntityFramework.xml
+E:\SHERIDAN\TERM-4\.NET\programs\FinalEFArkPatel\bin\Debug\EntityFramework.SqlServer.xml
+E:\SHERIDAN\TERM-4\.NET\programs\FinalEFArkPatel\obj\Debug\FinalEFArkPatel.csprojAssemblyReference.cache
+E:\SHERIDAN\TERM-4\.NET\programs\FinalEFArkPatel\obj\Debug\FinalEFArkPatel.csproj.CoreCompileInputs.cache
+E:\SHERIDAN\TERM-4\.NET\programs\FinalEFArkPatel\obj\Debug\FinalEFArkPatel.csproj.CopyComplete
+E:\SHERIDAN\TERM-4\.NET\programs\FinalEFArkPatel\obj\Debug\FinalEFArkPatel.exe
+E:\SHERIDAN\TERM-4\.NET\programs\FinalEFArkPatel\obj\Debug\FinalEFArkPatel.pdb

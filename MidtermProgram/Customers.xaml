@@ -1,0 +1,65 @@
+﻿<Window x:Class="MidtermProgram.Customers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MidtermProgram"
+        mc:Ignorable="d"
+        Title="CustomersPage" Height="450" Width="800">
+    <Grid>
+        <DockPanel LastChildFill="False" Margin="0,0,-0.4,375">
+            <Menu x:Name="mainMenu" Height="45" VerticalAlignment="Top" Width="795" Margin="0,0,0,-0.2">
+                <MenuItem x:Name="menuFile" Header="File">
+                    <MenuItem x:Name="menuNew" Header="New"/>
+                    <MenuItem x:Name="menuSave" Header="Save"/>
+                    <MenuItem x:Name="menuQuit" Header="Quit" Click="menuQuit_Click"/>
+                </MenuItem>
+                <MenuItem x:Name="menuEdit" Header="Edit">
+                    <MenuItem x:Name="menuInsert" Header="Insert" Click="btnAdd_Click"/>
+                    <MenuItem x:Name="menuUpdate" Header="Update" Click="btnUpdate_Click"/>
+                    <MenuItem x:Name="menuDelete" Header="Delete" Click="btnDelete_Click"/>
+                </MenuItem>
+                <MenuItem x:Name="menuHelp" Header="Help" Click="Contact_Click"/>
+            </Menu>
+        </DockPanel>
+        <Grid HorizontalAlignment="Left" Height="360" Margin="10,40,0,0" Grid.Row="1" VerticalAlignment="Top" Width="782" Background="#FFD8DAF4">
+            <RichTextBox x:Name="rightClickMenu" Margin="0,101,0,-22" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="782" Background="#FFD8DAF4">
+                <RichTextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </RichTextBox.RenderTransform>
+                <RichTextBox.ContextMenu>
+                    <ContextMenu x:Name="rightClick"  StaysOpen="true">
+                        <MenuItem Header="Insert" Click="btnAdd_Click"/>
+                        <MenuItem Header="Update" Click="btnUpdate_Click"/>
+                        <MenuItem Header="Delete" Click="btnDelete_Click"/>
+                    </ContextMenu>
+                </RichTextBox.ContextMenu>
+            </RichTextBox>
+            <StackPanel HorizontalAlignment="Left" Height="360" Margin="10,0,0,0" VerticalAlignment="Top" Width="420">
+                <ListBox x:Name="lstCustomer"
+                     HorizontalContentAlignment="Stretch"
+                     ItemsSource="{Binding}" SelectionChanged="lstCustomer_SelectionChanged"
+                     />
+                <DataGrid Height="100"/>
+            </StackPanel>
+            <StackPanel  HorizontalAlignment="Left" Height="350" Margin="435,0,0,0" VerticalAlignment="Top" Width="310">
+                <Label x:Name="Name" Content="Name:" Margin="0,0,0.4,0"/>
+                <TextBox x:Name="tbName" Margin="0,0,0.4,0"/>
+                <Label x:Name="Address" Content="Address:" Margin="0,0,237.4,0"/>
+                <TextBox x:Name="tbAddress" Margin="0,0,0.4,0"/>
+                <Label x:Name="Email" Content="Email:" Margin="0,0,237.4,0"/>
+                <TextBox x:Name="tbEmail" Margin="0,0,0.4,0"/>
+                <Label x:Name="Phone" Content="Phone:" Margin="0,0,214.4,0"/>
+                <TextBox x:Name="tbPhone" Margin="0,0,0.4,0"/>
+                <Button x:Name="btnAdd" Content="Add New" Click="btnAdd_Click" Margin="115,0,108.4,0" Height="52"/>
+                <Button x:Name="btnUpdate" Content="Update" Click="btnUpdate_Click" Margin="115,0,108.4,0" Height="49"/>
+                <Button x:Name="btnDelete" Content="Delete" Click="btnDelete_Click" Height="51" Margin="115,0,0,0" HorizontalAlignment="Left" Width="87"/>
+            </StackPanel>
+
+        </Grid>
+    </Grid>
+</Window>

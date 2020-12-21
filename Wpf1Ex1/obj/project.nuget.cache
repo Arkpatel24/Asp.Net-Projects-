@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mti5Tohlk0qN28rx4rxocr5QBsUDew8DYsqvad5FyqLzdVDhoR1gtu07ezgZp1+H4EN6VEM1/1uozl04iHkB5w==",
+  "success": true,
+  "projectFilePath": "E:\\SHERIDAN\\TERM-4\\.NET\\programs\\Wpf1Ex1\\Wpf1Ex1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ARK PATEL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\SHERIDAN\\TERM-4\\.NET\\programs\\A2ArkPatel\\A2ArkPatel.csproj": {}
+  },
+  "projects": {
+    "E:\\SHERIDAN\\TERM-4\\.NET\\programs\\A2ArkPatel\\A2ArkPatel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\SHERIDAN\\TERM-4\\.NET\\programs\\A2ArkPatel\\A2ArkPatel.csproj",
+        "projectName": "A2ArkPatel",
+        "projectPath": "E:\\SHERIDAN\\TERM-4\\.NET\\programs\\A2ArkPatel\\A2ArkPatel.csproj",
+        "packagesPath": "C:\\Users\\ARK PATEL\\.nuget\\packages\\",
+        "outputPath": "E:\\SHERIDAN\\TERM-4\\.NET\\programs\\A2ArkPatel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ARK PATEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

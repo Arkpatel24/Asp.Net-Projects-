@@ -1,0 +1,40 @@
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\TypedDataSetExample.exe
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\obj\Debug\netcoreapp3.1\TypedDataSetExample.csprojAssemblyReference.cache
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\obj\Debug\netcoreapp3.1\TypedDataSetExample.AssemblyInfoInputs.cache
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\obj\Debug\netcoreapp3.1\TypedDataSetExample.AssemblyInfo.cs
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\obj\Debug\netcoreapp3.1\TypedDataSetExample.csproj.CopyComplete
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\obj\Debug\netcoreapp3.1\TypedDataSetExample.csproj.CoreCompileInputs.cache
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\TypedDataSetExample.deps.json
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\TypedDataSetExample.runtimeconfig.json
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\TypedDataSetExample.runtimeconfig.dev.json
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\TypedDataSetExample.dll
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\TypedDataSetExample.pdb
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\obj\Debug\netcoreapp3.1\TypedDataSetExample.dll
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\obj\Debug\netcoreapp3.1\TypedDataSetExample.pdb
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\TypedDataSetExample\TypedDataSetExample\obj\Debug\netcoreapp3.1\TypedDataSetExample.genruntimeconfig.cache
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\TypedDataSetExample.exe
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\TypedDataSetExample.deps.json
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\TypedDataSetExample.runtimeconfig.json
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\TypedDataSetExample.runtimeconfig.dev.json
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\TypedDataSetExample.dll
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\TypedDataSetExample.pdb
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\obj\Debug\netcoreapp3.1\TypedDataSetExample.csprojAssemblyReference.cache
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\obj\Debug\netcoreapp3.1\TypedDataSetExample.AssemblyInfoInputs.cache
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\obj\Debug\netcoreapp3.1\TypedDataSetExample.AssemblyInfo.cs
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\obj\Debug\netcoreapp3.1\TypedDataSetExample.csproj.CoreCompileInputs.cache
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\obj\Debug\netcoreapp3.1\TypedDataSetExample.csproj.CopyComplete
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\obj\Debug\netcoreapp3.1\TypedDataSetExample.dll
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\obj\Debug\netcoreapp3.1\TypedDataSetExample.pdb
+C:\Users\Gursharan\Desktop\New folder\TypedDataSetExample\TypedDataSetExample\obj\Debug\netcoreapp3.1\TypedDataSetExample.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "w4P2Ex1/1.0.0": {
+        "runtime": {
+          "w4P2Ex1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "w4P2Ex1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ConnectionStrings": {
+    "NorthwindMdf": "Server=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\OneDrive - Sheridan College\\Visual Studio 2019 Projects\\2020-Summer\\IntroToDatabaseProgramming\\IntroToDatabaseProgramming\\AppData\\Northwind.mdf;Trusted_Connection=Yes;",
+
+    "NorthwindLocal": "Server=(LocalDB)\\MSSQLLocalDB;Database=Northwind;Trusted_Connection=Yes;",
+
+    "NorthwindSqlServer": "Server=.\\sqlexpress;Database=Northwind;Trusted_Connection=Yes;"
+  }
+}

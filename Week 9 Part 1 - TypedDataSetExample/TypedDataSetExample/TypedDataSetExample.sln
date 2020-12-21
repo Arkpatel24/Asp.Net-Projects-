@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypedDataSetExample", "TypedDataSetExample\TypedDataSetExample.csproj", "{32913DEE-7DB2-463D-BABC-4939091F44D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32913DEE-7DB2-463D-BABC-4939091F44D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32913DEE-7DB2-463D-BABC-4939091F44D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32913DEE-7DB2-463D-BABC-4939091F44D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32913DEE-7DB2-463D-BABC-4939091F44D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EC3E173-20B0-4DA2-85DD-EC0593430A50}
+	EndGlobalSection
+EndGlobal

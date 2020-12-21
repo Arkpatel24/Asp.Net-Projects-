@@ -1,0 +1,1 @@
+D:\OneDrive - Sheridan College\Visual Studio 2019 Projects\2020-Summer\FluentDesignExample\FluentDesignExample\FluentDesignExample.csproj;x86

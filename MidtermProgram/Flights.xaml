@@ -1,0 +1,63 @@
+﻿<Window x:Class="MidtermProgram.Flights"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MidtermProgram"
+        mc:Ignorable="d"
+        Title="FlightsPage" Height="450" Width="800">
+    <Grid Background="#FFD8DAF4">
+        <RichTextBox x:Name="rightClickMenu" Margin="0,50,-0.4,0" RenderTransformOrigin="0.5,0.5" Background="#FFCAD2F3">
+            <RichTextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RichTextBox.RenderTransform>
+            <RichTextBox.ContextMenu>
+                <ContextMenu x:Name="rightClick"  StaysOpen="true">
+                    <MenuItem Header="Insert" Click="btnAdd_Click"/>
+                    <MenuItem Header="Update" Click="btnUpdate_Click"/>
+                    <MenuItem Header="Delete" Click="btnDelete_Click"/>
+                </ContextMenu>
+            </RichTextBox.ContextMenu>
+        </RichTextBox>
+        <DockPanel LastChildFill="False" Margin="0,0,-0.4,375">
+            <Menu x:Name="mainMenu" Height="45" VerticalAlignment="Top" Width="795" Margin="0,0,0,-0.2">
+                <MenuItem x:Name="menuFile" Header="File">
+                    <MenuItem x:Name="menuNew" Header="New"/>
+                    <MenuItem x:Name="menuSave" Header="Save"/>
+                    <MenuItem x:Name="menuQuit" Header="Quit" Click="menuQuit_Click"/>
+                </MenuItem>
+                <MenuItem x:Name="menuEdit" Header="Edit">
+                    <MenuItem x:Name="menuInsert" Header="Insert"  Click="btnAdd_Click"/>
+                    <MenuItem x:Name="menuUpdate" Header="Update" Click="btnUpdate_Click"/>
+                    <MenuItem x:Name="menuDelete" Header="Delete" Click="btnDelete_Click"/>
+                </MenuItem>
+                <MenuItem x:Name="menuHelp" Header="Help" Click="Contact_Click"/>
+            </Menu>
+        </DockPanel>
+        <StackPanel HorizontalAlignment="Left" Height="146" Margin="0,50,0,0" VerticalAlignment="Top" Width="463">
+            <ListBox x:Name="lstFlight"
+                     HorizontalContentAlignment="Stretch"
+                     ItemsSource="{Binding}" SelectionChanged="lstFlight_SelectionChanged" Height="146" Margin="0,0,0.2,0"
+                     />
+        </StackPanel>
+        <StackPanel  HorizontalAlignment="Left" Height="365" Margin="463,44,0,0" VerticalAlignment="Top" Width="329">
+            <Label x:Name="aID" Content="AirLineID:"/>
+            <TextBox x:Name="txtAirID"/>
+            <Label x:Name="dCity" Content="Departure City:"/>
+            <TextBox x:Name="txtDeptCity"/>
+            <Label x:Name="desCity" Content="Destination City:"/>
+            <TextBox x:Name="txtDestCity"/>
+            <Label x:Name="deDate" Content="Departure Date:"/>
+            <TextBox x:Name="txtDeptDate"/>
+            <Label x:Name="fTime" Content="FlightTime:"/>
+            <TextBox x:Name="txtFlighTime"/>
+            <Button x:Name="btnAdd" Content="Add New" Click="btnAdd_Click"/>
+            <Button x:Name="btnUpdate" Content="Update" Click="btnUpdate_Click"/>
+            <Button x:Name="btnDelete" Content="Delete" Click="btnDelete_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
